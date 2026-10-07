@@ -1,5 +1,3 @@
-package tema02;
-
 import java.io.FileReader;
 import java.io.LineNumberReader;
 
