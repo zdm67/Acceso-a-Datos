@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dealerships [
+    <!ELEMENT dealerships (dealership+)>
+    <!ELEMENT dealership (name, vehicles)>
+    <!ATTLIST dealership location CDATA #REQUIRED>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT vehicles (vehicle+)>
+    <!ELEMENT vehicle (model, brand, type, year)>
+    <!ELEMENT model (#PCDATA)>
+    <!ELEMENT brand (#PCDATA)>
+    <!ELEMENT type (#PCDATA)>
+    <!ELEMENT year (#PCDATA)>
+]>
+
+<dealerships>
+    <dealership location="Madrid">
+        <name>Concesionario Central</name>
+        <vehicles>
+            <vehicle>
+                <model>Civic</model>
+                <brand>Honda</brand>
+                <type>Sedán</type>
+                <year>2022</year>
+            </vehicle>
+            <vehicle>
+                <model>Mustang</model>
+                <brand>Ford</brand>
+                <type>Deportivo</type>
+                <year>2024</year>
+            </vehicle>
+        </vehicles>
+    </dealership>
+    <dealership location="Barcelona">
+        <name>AUTOMÓVILES DIAGONAL</name>
+        <vehicles>
+            <vehicle>
+                <model>Model 3</model>
+                <brand>Tesla</brand>
+                <type>Eléctrico</type>
+                <year>2023</year>
+            </vehicle>
+            <vehicle>
+                <model>RAV4</model>
+                <brand>Toyota</brand>
+                <type>SUV</type>
+                <year>2021</year>
+            </vehicle>
+        </vehicles>
+    </dealership>
+</dealerships>
