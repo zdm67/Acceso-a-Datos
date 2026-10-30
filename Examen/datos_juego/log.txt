@@ -1,0 +1,3 @@
+El jugador A consiguio 1500 puntos
+El jugador B consiguio 1200 puntos
+El jugador C consiguio 1100 puntos
